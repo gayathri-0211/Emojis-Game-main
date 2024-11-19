@@ -1,0 +1,42 @@
+.cardd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  background-color: #ffffff33;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff30;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.image {
+  height: 90px;
+  width: 90px;
+}
+.btn {
+  width: 195x;
+  height: 195px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .cardd {
+    width: 90px;
+    height: 90px;
+    border-width: 1px;
+  }
+  .btn {
+    width: 60px;
+    height: 100px;
+  }
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+}

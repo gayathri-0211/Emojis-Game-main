@@ -1,0 +1,50 @@
+/* Write your code here. */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 12vh;
+  width: 100%;
+  background-color: #9796f0;
+  padding: 20px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    height: 50px;
+    margin-bottom: 70px;
+  }
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+  .item {
+    font-size: 14px;
+  }
+  .item2 {
+    font-size: 11px;
+  }
+  .scores {
+    font-size: 12px;
+    align-self: center;
+  }
+}
